@@ -1,5 +1,5 @@
 {
-  "name": "CobaReactNative",
+  "name": "coba-react-native",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "emulator-android": "emulator -avd Pixel_4_API_30"
   },
   "dependencies": {
     "react": "18.1.0",
